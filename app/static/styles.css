@@ -1,0 +1,37 @@
+:root{
+    --onyx: #393E41;
+    --timberwold: #D3D0CB;
+    --platnium: #E7E5DF;
+    --kepple: #44BBA4;
+    --saffron: #E7BB41;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--onyx);
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-but{
+    background-color: var(--timberwold);
+    height: 4rem;
+    width: 100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-but:hover{
+    background-color: var(--kepple);
+}
