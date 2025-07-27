@@ -9,29 +9,72 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Verdana, sans-serif;;
 }
 
 header{
     background-color: var(--onyx);
+    font-family: Verdana, sans-serif;
 }
 
 .nav{
     margin: 0;
     padding: 0;
     display: flex;
-    height: 5rem;
+    height: 6rem;
     width: 100%;
     justify-content: center;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 50;
+    color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .nav-but{
     background-color: var(--timberwold);
-    height: 4rem;
-    width: 100px;
+    border: none;
+    text-align: center;
+    font-size: medium;
+    height: 3rem;
+    width: 150px;
+    border-radius: 12px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
 .nav-but:hover{
     background-color: var(--kepple);
+}
+
+.nav-but:active{
+    background-color: #229982;
+}
+
+.title{
+    text-align: center;
+}
+.about{
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.profile-img{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    max-height: 450px;
+    border-radius: 10px;
+}
+.about-main{
+    list-style-type: none;
+}
+li{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--platnium);
+    box-shadow: 2px 5px 10px var(--timberwold);
 }

@@ -1,5 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p>Hello!</p>
+<h1 class="title">About Me</h1>
+<div class="about">
+    <img src="{{ url_for('static', filename='images/profile_picture.jpeg' )}}" alt="Picture of Logan" class="profile-img">
+    <ul class="about-main">
+        <li>Hi, I'm Logan, an aspiring data engineer with a passion for transforming raw data into meaningful insights. My tech journey began in elementary school, building Minecraft servers to connect friends across the globe—a spark that ignited my love for coding and systems that bring people together. Now, as a Computer Science student at Brigham Young University-Idaho, I'm honing my skills in Python, SQL, and data organization to create efficient, impactful solutions.</li>
+        <br>
+        <li>I thrive on tackling complex problems, whether it's designing scalable data pipelines or mastering concurrency patterns like Producer-Consumer. My goal is to become a resourceful developer and collaborative team player who delivers reliable, innovative systems. Beyond coding, you'll find me strumming my guitar to Peach Pit riffs or exploring new ways to blend creativity with technology.</li>
+        <br>
+        <li>I'm excited to contribute to projects that make data accessible and actionable. Check out my work or reach out to collaborate on something extraordinary!</li>
+    </ul>
+</div>
+<h1 class="title">Experience</h1>
+<div class="experience">
+    <p>nothing</p>
+</div>
 {% endblock %}
