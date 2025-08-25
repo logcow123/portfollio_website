@@ -9,9 +9,13 @@
 <header>
     <div class="nav">
         <h2 class="nav-title">Logan Cowley</h2>
-        <button class="nav-but">Home</button>
+        <button class="nav-but">
+            <a href="{{ url_for('index') }}">Home</a>
+        </button>
         <button class="nav-but">Projects</button>
-        <button class="nav-but">Contact</button>
+        <button class="nav-but">
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </button>
     </div>
 </header>
 <body>
